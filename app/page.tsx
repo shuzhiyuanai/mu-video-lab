@@ -43,6 +43,20 @@ export default function Home() {
               Video Montage · 无缝切换与进度条
             </span>
           </Link>
+          <Link
+            href="/ai-hero"
+            className="flex flex-col items-center gap-2 rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition hover:border-zinc-300 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-zinc-700"
+          >
+            <span className="text-2xl" aria-hidden>
+              🚀
+            </span>
+            <span className="font-semibold text-zinc-900 dark:text-zinc-50">
+              题目三：AI 产品首页 Hero 区
+            </span>
+            <span className="text-sm text-zinc-500 dark:text-zinc-400">
+              Creative Landing · 动效与 UI 审美
+            </span>
+          </Link>
         </nav>
 
         <p className="text-xs text-zinc-400 dark:text-zinc-500">
